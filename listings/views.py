@@ -15,7 +15,7 @@ def index(request):
     
 
 
-def listing(request):
+def listing(request, listing_id):
    return render(request, 'listings/listing.html')
     
 
